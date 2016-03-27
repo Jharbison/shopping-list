@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.header {
+	background-color: #8B9E8F;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+h1 {
+	color: #242e4e;
+	font-family: 'Yeseva One', Arial;
+	font-size: 50px;
+}
+
+#list, p {
+	font-family: 'Muli', sans-serif;
+}
+
+#add-item {
+	background-color: #7d8290;
+	border-radius: 30px;
+	color: #fdffe6;
+	display: table;
+	width: 400px;
+	padding: 5px 25px;
+	margin: 15px auto;
+}
+
+.line {
+	background-color: #000000;
+	height: 6px;
+	width: 700px;
+	margin: 15px auto;
+	border-radius: 30px;
+}
+
+.list-item {
+	background-color: #7d8290;
+	border: 1px solid gray;
+	overflow: auto;
+	width: 600px;
+	margin: 5px auto;
+	border-radius: 30px;
+}
+
+.left .right {
+	padding: 10px;
+}
+
+.left {
+	color: white;
+	font-size: 1.5em;
+	font-weight: 500;
+	float: left;
+	width: 75%;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.right {
+	font-size: 1.5em;
+	float: right;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.right ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.right li {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.fa-check {
+	color: green;
+}
+
+.fa-edit {
+	color: white;
+}
+
+.fa-trash {
+	color: #900101;
+}
+
+.button {
+	background-color: #7d8290;
+	border-radius: 15px;
+	color: #fff;
+	padding: 5px 10px;
+	cursor: pointer;
+	margin-top: 15px;
+}
