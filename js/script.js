@@ -31,7 +31,21 @@ $(document).ready(function() {
 	});
 
 	$(document).on('click', '.fa-edit', function () {
-		console.log("Yep")
+	var $el = $(this).parent().parent().parent().parent().children('.left');
+	var value = $el.text();
+	$el.html('<input type="text" id="edit" value="'+value+'"/>');
+	$('#edit').focus();
 	});
+
+$(document).on('keyup', '#edit', function(e){
+	// enter
+	if(e.which==13){
+		var value = $(this).val();
+		var $el = $(this).parent();
+		$el.html(value);
+	}
+	});
+
+
 
 });
