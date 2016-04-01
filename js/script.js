@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var right = '<div class="right"><ul> <li><i class="fa fa-trash"></i></li> <li><i class="fa fa-check"></i></li> </ul></div>';
+	var right = '<div class="right"><ul> <li><i class="fa fa-edit"></i></li> <li><i class="fa fa-trash"></i></li> <li><i class="fa fa-check"></i></li> </ul></div>';
         
         //Adds items to list
 	$('form').submit(function(e) {
